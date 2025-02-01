@@ -5,6 +5,8 @@ import About from "./About";
 import Contact from "./Contact";
 import Payment from "./Payment";
 import Tests from "./Tests";
+import UseState from "./UseState";
+import LearnUseEffect from "./UseEffect";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/tests" element={<Tests />} />
+          <Route path="/use-state" element={<UseState />} />
+          <Route path="/use-effect" element={<LearnUseEffect />} />
         </Routes>
       </BrowserRouter>
     </>

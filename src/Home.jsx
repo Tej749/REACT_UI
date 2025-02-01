@@ -1,3 +1,5 @@
+import Button from "./Button";
+import Card from "./Card";
 import "./Home.css";
 import { Link } from "react-router-dom";
 
@@ -25,12 +27,14 @@ function Home() {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-            <li>
-              <Link to="/test">Test Button</Link>
-            </li>
           </ul>
         </div>
       </nav>
+      <Button prp="Home" dt={4} />
+      <div>
+        <Button prp="Action" dt={5} />
+      </div>
+      <Card />
     </>
   );
 }
